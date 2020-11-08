@@ -15,6 +15,14 @@ app.get('/', (req, res) => {
   res.send(`Hello, I'm running on ${os.hostname()} with version ${version}!`)
 })
 
+app.get('/live', (req, res) => {
+  res.send(`Hello, I'm alive`)
+})
+
+app.get('/ready', (req, res) => {
+  res.send(`Hello, I'm ready`)
+})
+
 setTimeout(() => { 
   app.listen(port, () => {
     console.log(`Example app listening at port ${port}`)
