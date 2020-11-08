@@ -1,0 +1,23 @@
+{
+  "name": "demo-deployment",
+  "version": "1.0.0",
+  "description": "Demo deployment on K8S",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhpq331/demo-deployment.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minhpq331/demo-deployment/issues"
+  },
+  "homepage": "https://github.com/minhpq331/demo-deployment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
